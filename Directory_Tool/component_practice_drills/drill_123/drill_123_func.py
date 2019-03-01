@@ -11,7 +11,13 @@ import drill_123_gui
 def search_dir(self):
     directory = askdirectory()
     if directory:
-        self.varSearch.set(directory)
+        self.varDir.set(directory)
+
+def search_dest(self):
+    destination = askdirectory()
+    if directory:
+        self.varDest.set(destination)
+        
     
 
 
