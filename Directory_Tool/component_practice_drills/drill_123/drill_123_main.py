@@ -1,8 +1,13 @@
+"""
+Will search directory for a file then display file in search bar
+"""
+
+
 from tkinter import *
 import tkinter as tk
 
-import tool_gui
-
+import drill_123_gui
+import drill_123_func
 
 
 
@@ -14,10 +19,10 @@ class Window(Frame):
         self.master = master
         self.master.minsize(515,175)
         self.master.maxsize(515,175)
-        self.master.title("Check Files")
+        self.master.title("Directory Search")
         self.master.configure(bg="#F0F0F0")
 
-        tool_gui.load_gui(self)
+        drill_123_gui.load_gui(self)
 
 
 

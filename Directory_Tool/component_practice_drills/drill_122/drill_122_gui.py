@@ -1,7 +1,7 @@
 from tkinter import *
 import tkinter as tk
 
-import tool_main
+import drill_122_main
 
 
 
