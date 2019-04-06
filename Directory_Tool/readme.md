@@ -11,7 +11,20 @@ This basic application consists of 3 .py files:
 - [tool_gui](https://github.com/CreativeDave/The-Tech-Academy-Python-Coding-Projects/blob/master/Directory_Tool/Directory_Tool_main/tool_gui.py)
 - [tool_func](https://github.com/CreativeDave/The-Tech-Academy-Python-Coding-Projects/blob/master/Directory_Tool/Directory_Tool_main/tool_func.py)
 
-The zen of python states, "explicit is better than implicit," So the first thing do call an instance of Tk and create the root window from the tool_main file. 
+**To get started,** download this repository and find the /Directory_Tool/Directory_Tool_main folder. Using your [python interpreter](https://www.python.org/downloads/) of choice, run the [tool_main.py](https://github.com/CreativeDave/The-Tech-Academy-Python-Coding-Projects/blob/master/Directory_Tool/Directory_Tool_main/tool_func.py) file. 
+
+When the application opens, select the directory you would like to move the files from with the *top* browse button, and the destination directory with the *bottom* one. 
+
+The *transfer files* button initiates the function! 
+
+
+Below, I've included a brief explanation of some of the code for this project.
+_____________________________________________________________________________________________________________________________
+
+
+> The zen of python states, "explicit is better than implicit" 
+
+So, the first thing to do is call an instance of Tk and create the root window from the tool_main file.  
 ```
 if __name__ == "__main__":
     root = tk.Tk()
